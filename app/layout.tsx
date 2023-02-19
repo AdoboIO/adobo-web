@@ -1,3 +1,5 @@
+import '../styles/globals.css';
+
 export default function RootLayout({
                                        // Layouts must accept a children prop.
                                        // This will be populated with nested layouts or pages
@@ -6,9 +8,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
-        <head />
-        <body>{children}</body>
+        <html lang="en" className="h-full bg-gray-50">
+        <body className="h-full">{children}</body>
         </html>
     );
 };
