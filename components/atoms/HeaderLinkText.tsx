@@ -3,7 +3,7 @@ type HeaderProps = {
     name: string;
     href: string;
 }
-export default function HeaderText(props: HeaderProps) {
+export default function HeaderLinkText(props: HeaderProps) {
 
     const {name, href} = props;
 
