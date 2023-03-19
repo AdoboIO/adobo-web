@@ -1,5 +1,11 @@
-import '../styles/globals.css';
-import Header from "../components/organisms/Header";
+import '../styles/globals.css'
+import type { Metadata } from 'next'
+import Header from "../components/organisms/Header"
+
+export const metadata: Metadata = {
+    title: 'Adobo Web App',
+    description: 'A web app for Adobo',
+};
 
 export default function RootLayout({
                                        // Layouts must accept a children prop.
